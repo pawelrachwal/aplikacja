@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<script src="js/pgb.js"></script>
+		<script src="cordova.js"></script>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body onload="init()">
+		
+		<!-- My app main page -->
+		<div data-role="page" id="pageone">
+		  <div data-role="header">
+			<h1>Miła aplikacja</h1>
+		  </div>
+		  <div data-role="main" class="ui-content">
+				<br><br><br><br>
+			<center><a href="#obrazek" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">Dotknij tutaj :)</a><br>
+			<div data-role="popup" id="obrazek">
+					<img class="popphoto" src="./img/test.png" style="max-height:512px;" alt="obrazek">
+			</div></center>
+
+		  </div>
+		  <div data-role="footer" data-position="fixed">
+			<h1>Dla Justyny! :)</h1>
+		  </div> 
+		</div> 		
+	</body>
+</html>
