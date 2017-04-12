@@ -9,6 +9,6 @@ function onDeviceReady() {
 
 function random() {
 	var number = Math.floor((Math.random() * 3) + 1);
-	document.getElementById("randomize").innerHTML = "<img class=\"popphoto\" src=\"./img/test" + number + ".png\" style=\"max-height:512px;\" alt=\"obrazek\">;";	
+	document.getElementById("randomize").innerHTML = "<img class=\"popphoto\" src=\"./img/test" + number + ".png\" style=\"max-height:512px;\" alt=\"obrazek\">;"	
 }
 
