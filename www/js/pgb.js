@@ -7,3 +7,8 @@ function onDeviceReady() {
 	deviceInfo();
 }
 
+function random() {
+	var number = Math.floor((Math.random() * 3) + 1);
+	document.getElementById("randomize").innerHTML = number;	
+}
+
